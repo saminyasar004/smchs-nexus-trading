@@ -2,12 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+	:root {
+		--background: 162 94% 13%;
+		--foreground: 41 53% 62%;
+
+		--card: 162 85% 16%;
+		--card-foreground: 41 53% 62%;
+
+		--popover: 162 90% 10%;
+		--popover-foreground: 41 53% 62%;
+
+		--primary: 41 53% 62%;
+		--primary-foreground: 162 94% 13%;
+
+		--secondary: 162 70% 20%;
+		--secondary-foreground: 41 53% 62%;
+
+		--muted: 162 40% 25%;
+		--muted-foreground: 41 30% 50%;
+
+		--accent: 41 60% 55%;
+		--accent-foreground: 162 94% 13%;
+
+		--destructive: 0 84.2% 60.2%;
+		--destructive-foreground: 41 53% 62%;
+
+		--border: 162 40% 25%;
+		--input: 162 40% 25%;
+		--ring: 41 53% 62%;
+
+		--radius: 0.75rem;
+
+		/* Custom design tokens */
+		--gradient-primary: linear-gradient(
+			135deg,
+			hsl(162 94% 13%),
+			hsl(162 80% 18%)
+		);
+		--gradient-gold: linear-gradient(
+			135deg,
+			hsl(41 53% 62%),
+			hsl(41 65% 55%)
+		);
+		--gradient-overlay: linear-gradient(
+			180deg,
+			hsl(162 94% 13% / 0.95),
+			hsl(162 94% 13% / 0.8)
+		);
+
+		--shadow-glow: 0 0 40px hsl(41 53% 62% / 0.3);
+		--shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.5);
+
+		--transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		--transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+}
+
 @layer base {
 	* {
-		@apply border-gray-200;
+		@apply border-border;
 	}
 
 	body {
-		@apply bg-white text-gray-900 cursor-default;
+		@apply bg-background text-foreground;
 	}
 }
