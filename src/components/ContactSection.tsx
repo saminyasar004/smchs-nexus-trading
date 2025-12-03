@@ -19,8 +19,8 @@ const ContactSection = () => {
 		{
 			icon: Phone,
 			label: "Call Us",
-			value: "+8802-41060883/5",
-			href: "tel:+880241060883/5",
+			value: "0241060883/17",
+			href: "tel:0241060883/17",
 		},
 		{
 			icon: MapPin,
