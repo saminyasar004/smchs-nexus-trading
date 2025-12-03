@@ -25,7 +25,7 @@ const Contact = () => {
 		{
 			icon: MapPin,
 			label: "Registered Office",
-			value: "8th Floor, Sahera Tropical Center, 218, Dr. Kudrat-e-Khoda road, Dhaka-1205",
+			value: "8th Floor, Sahera Tropical Center, 218, Dr. Kudrat-e-Khoda road, Dhaka-1205, Bangladesh",
 			href: "https://maps.google.com/?q=8th+Floor+Sahera+Tropical+Center+Dhaka",
 		},
 		{
@@ -210,7 +210,7 @@ const Contact = () => {
 										<p className="text-sm">
 											8th Floor, Sahera Tropical Center,
 											218, Dr. Kudrat-e-Khoda Road,
-											Dhaka-1205
+											Dhaka-1205, Bangladesh
 										</p>
 									</div>
 									<div>
