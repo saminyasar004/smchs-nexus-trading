@@ -1,11 +1,15 @@
 import { motion } from "framer-motion";
-import { User, Users } from "lucide-react";
+
+import ChairmanImg from "/hasan-khan.jpeg";
+import CEOImg from "/abdul-mohaemin.jpeg";
+import MDImg from "/saiful-islam.jpeg";
 
 const Organogram = () => {
 	const chairman = {
 		name: "Md. Hasan Khan (HK)",
 		title: "Chairman",
 		description: "Strategic Leadership & Corporate Governance",
+		image: ChairmanImg,
 	};
 
 	const executives = [
@@ -13,11 +17,13 @@ const Organogram = () => {
 			name: "Abdul Mohaimen",
 			title: "Chief Executive Officer (CEO)",
 			description: "Operational Leadership & Daily Management",
+			image: CEOImg,
 		},
 		{
 			name: "Saiful Islam",
 			title: "Managing Director (MD)",
 			description: "Corporate Strategy & Global Partnerships",
+			image: MDImg,
 		},
 	];
 
@@ -34,8 +40,12 @@ const Organogram = () => {
 				<div className="relative">
 					<div className="bg-gradient-primary rounded-2xl p-8 shadow-elegant border-2 border-primary/30 max-w-md">
 						<div className="flex items-center justify-center mb-4">
-							<div className="bg-primary/20 w-16 h-16 rounded-full flex items-center justify-center">
-								<User className="w-8 h-8 text-primary" />
+							<div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white/20 shadow-lg">
+								<img
+									src={chairman.image}
+									alt={chairman.name}
+									className="w-full h-full object-cover"
+								/>
 							</div>
 						</div>
 						<h3 className="text-2xl font-serif font-bold text-center mb-2">
@@ -81,8 +91,12 @@ const Organogram = () => {
 					>
 						<div className="bg-card border-2 border-primary/20 rounded-xl p-6 shadow-elegant hover:shadow-glow transition-all duration-300 h-full">
 							<div className="flex items-center justify-center mb-4">
-								<div className="bg-primary/10 w-14 h-14 rounded-full flex items-center justify-center">
-									<Users className="w-7 h-7 text-primary" />
+								<div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/10 shadow-md">
+									<img
+										src={executive.image}
+										alt={executive.name}
+										className="w-full h-full object-cover object-top"
+									/>
 								</div>
 							</div>
 							<h3 className="text-xl font-serif font-bold text-center mb-2">
