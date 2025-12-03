@@ -208,9 +208,9 @@ const Contact = () => {
 											Headquarters
 										</h4>
 										<p className="text-sm">
-											Dhaka, Bangladesh
-											<br />
-											(Provide your address for update)
+											8th Floor, Sahera Tropical Center,
+											218, Dr. Kudrat-e-Khoda Road,
+											Dhaka-1205
 										</p>
 									</div>
 									<div>
