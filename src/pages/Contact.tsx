@@ -215,11 +215,9 @@ const Contact = () => {
 									</div>
 									<div>
 										<h4 className="font-semibold mb-1">
-											Global Presence
+											Oversease Address
 										</h4>
-										<p className="text-sm">
-											Operating in 82+ Countries Worldwide
-										</p>
+										<p className="text-sm">Saudi Arabia</p>
 									</div>
 								</div>
 							</div>
