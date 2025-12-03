@@ -68,7 +68,7 @@ const ServicesSection = () => {
 				"Corporate Travel",
 				"Tourism Management",
 				"Hospitality Services",
-				"Event Management",
+				"Total Package in all over the world travel",
 			],
 		},
 		{

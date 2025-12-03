@@ -76,7 +76,7 @@ const Services = () => {
 				"Tourism Management",
 				"Hospitality Services",
 				"Customized Travel Packages",
-				"Event Management",
+				"Total Package in all over the world travel",
 				"Guest Services",
 			],
 		},

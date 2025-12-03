@@ -101,7 +101,7 @@ export const servicesData = [
 		`,
 		features: [
 			"Hotel Management & Operational Consultancy",
-			"Corporate Travel & Event Management",
+			"Corporate Travel All Over the World",
 			"Customized Tour Packages",
 			"Hospitality Staff Training",
 			"Guest Experience Optimization",
