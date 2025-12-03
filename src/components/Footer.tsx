@@ -139,6 +139,22 @@ const Footer = () => {
 						</div>
 					</div>
 				</motion.div>
+
+				{/* Under Construction Message */}
+				<motion.div
+					initial={{ opacity: 0 }}
+					whileInView={{ opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.5 }}
+					viewport={{ once: true }}
+					className="mt-8 pt-4 border-t border-primary/10 text-center"
+				>
+					<p className="text-sm text-foreground/50 flex items-center justify-center gap-2">
+						<span>🚧</span>
+						This website is currently under construction. We are
+						working hard to bring you the best experience.
+						<span>🚧</span>
+					</p>
+				</motion.div>
 			</div>
 		</footer>
 	);

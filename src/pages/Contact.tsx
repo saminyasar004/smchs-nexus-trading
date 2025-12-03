@@ -19,14 +19,14 @@ const Contact = () => {
 		{
 			icon: Phone,
 			label: "Call Us",
-			value: "+880 — (Provide your full number)",
-			href: "tel:+880",
+			value: "+880 2-41060883/5",
+			href: "tel:+880241060883",
 		},
 		{
 			icon: MapPin,
-			label: "Visit Us",
-			value: "(Provide your address for update)",
-			href: "#",
+			label: "Registered Office",
+			value: "8th Floor, Sahera Tropical Center, 218, Dr. Kudrat-e-Khoda road, Dhaka-1205",
+			href: "https://maps.google.com/?q=8th+Floor+Sahera+Tropical+Center+Dhaka",
 		},
 		{
 			icon: Clock,
