@@ -13,19 +13,19 @@ const ContactSection = () => {
 		{
 			icon: Mail,
 			label: "Email Us",
-			value: "info@smchnexus.com",
-			href: "mailto:info@smchnexus.com",
+			value: "info@smchntl.com",
+			href: "mailto:info@smchntl.com",
 		},
 		{
 			icon: Phone,
 			label: "Call Us",
-			value: "+1 (555) 123-4567",
-			href: "tel:+15551234567",
+			value: "+8802-41060883/5",
+			href: "tel:+880241060883/5",
 		},
 		{
 			icon: MapPin,
 			label: "Visit Us",
-			value: "Global Trade Center, Business District",
+			value: "8th Floor, Sahera Tropical Center, 218, Dr. Kudrat-e-Khoda road, Dhaka-1205",
 			href: "#",
 		},
 	];
