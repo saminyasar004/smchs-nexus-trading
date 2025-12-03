@@ -68,12 +68,13 @@ const AboutSection = () => {
 						<span className="text-primary">Global Markets</span>
 					</h2>
 					<p className="text-xl text-foreground/80 max-w-3xl mx-auto leading-relaxed">
-						SMCH Nexus Trading Limited is a dynamic multi-sector
-						enterprise operating at the intersection of
-						international trade, construction, hospitality, and
-						agriculture. With over a decade of experience, we've
-						built a reputation for excellence and sustainable
-						business growth.
+						SMCH Nexus Trading Limited is a technology-driven,
+						diversified, and professionally managed business
+						organization. Established in 2007 in Dhaka by three
+						visionary entrepreneurs, the company has grown into a
+						trusted provider of high-quality products, reliable
+						services, and sustainable business solutions across
+						domestic and international markets.
 					</p>
 				</motion.div>
 
@@ -111,11 +112,10 @@ const AboutSection = () => {
 						Our Mission
 					</h3>
 					<p className="text-xl text-foreground/90 max-w-4xl mx-auto leading-relaxed">
-						To facilitate sustainable international trade, deliver
-						exceptional construction projects, provide world-class
-						hospitality experiences, and promote agricultural
-						innovation while creating lasting value for our
-						partners, clients, and communities worldwide.
+						To contribute to national economic development,
+						employment generation, and technological advancement by
+						delivering high-quality products, world-class services,
+						and comprehensive technical solutions.
 					</p>
 				</motion.div>
 			</div>

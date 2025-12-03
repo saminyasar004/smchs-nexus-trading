@@ -1,6 +1,14 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { Ship, Building2, Hotel, Sprout, TrendingUp } from "lucide-react";
+import {
+	Ship,
+	Building2,
+	Hotel,
+	Sprout,
+	TrendingUp,
+	Wrench,
+	Tractor,
+} from "lucide-react";
 import constructionImg from "/construction.jpg";
 import hospitalityImg from "/hospitality.jpg";
 import agricultureImg from "/agriculture.jpg";
@@ -13,54 +21,80 @@ const ServicesSection = () => {
 	const services = [
 		{
 			icon: Ship,
-			title: "International Trading",
+			title: "Trading",
 			description:
-				"Comprehensive import-export solutions connecting global markets with efficiency and reliability",
+				"Comprehensive sourcing, procurement, distribution, and product supply solutions",
 			image: globalTradeImg,
 			features: [
-				"Import & Export Services",
+				"Product Sourcing & Global Supply",
+				"Distribution Management",
+				"Quality Assurance",
+				"Vendor Management",
+			],
+		},
+		{
+			icon: TrendingUp,
+			title: "Import–Export",
+			description:
+				"End-to-end international trade operations with comprehensive logistics support",
+			image: globalTradeImg,
+			features: [
+				"International Trade Management",
 				"Customs Clearance",
-				"Supply Chain Management",
-				"Trade Consultation",
+				"Shipping & Logistics",
+				"Trade Compliance",
 			],
 		},
 		{
 			icon: Building2,
-			title: "Construction Projects",
+			title: "Construction",
 			description:
-				"Delivering world-class infrastructure and building solutions with precision and quality",
+				"Government and private sector projects including roads, bridges, and buildings",
 			image: constructionImg,
 			features: [
-				"Commercial Development",
-				"Infrastructure Projects",
-				"Project Management",
-				"Quality Assurance",
+				"Road Construction",
+				"Bridge Development",
+				"Building Projects",
+				"Industrial Construction",
 			],
 		},
 		{
 			icon: Hotel,
-			title: "Hospitality & Tourism",
+			title: "Hotel & Tourism",
 			description:
-				"Creating memorable experiences through premium hospitality and tourism services",
+				"Corporate travel, tourism solutions, and hospitality management services",
 			image: hospitalityImg,
 			features: [
-				"Hotel Management",
-				"Tourism Development",
-				"Event Planning",
-				"Guest Services",
+				"Corporate Travel",
+				"Tourism Management",
+				"Hospitality Services",
+				"Event Management",
 			],
 		},
 		{
-			icon: Sprout,
-			title: "Agricultural Ventures",
+			icon: Tractor,
+			title: "Agricultural & Agro Equipment",
 			description:
-				"Sustainable agriculture and agribusiness solutions for modern food systems",
+				"Sales and rental of 285+ modern agricultural machines and farming solutions",
 			image: agricultureImg,
 			features: [
-				"Crop Production",
-				"Agribusiness",
-				"Supply Chain",
-				"Sustainable Practices",
+				"Machinery Sales",
+				"Equipment Rental",
+				"285+ Agro Machines",
+				"Technical Support",
+			],
+		},
+		{
+			icon: Wrench,
+			title: "Industrial Equipment Rental",
+			description:
+				"1,215+ industrial and construction machinery units for projects of any scale",
+			image: constructionImg,
+			features: [
+				"1,215+ Equipment Units",
+				"Industrial Machinery",
+				"Construction Equipment",
+				"On-Time Delivery",
 			],
 		},
 	];

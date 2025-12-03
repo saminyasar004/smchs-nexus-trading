@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowRight, Globe, TrendingUp } from "lucide-react";
+import { ArrowRight, Globe, TrendingUp, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "/hero-bg.jpg";
 
@@ -76,9 +76,7 @@ const HeroSection = () => {
 					transition={{ duration: 0.8, delay: 0.6 }}
 					className="text-xl md:text-2xl text-foreground/90 mb-12 max-w-3xl mx-auto leading-relaxed"
 				>
-					Building bridges across continents through international
-					trading, construction excellence, hospitality innovation,
-					and sustainable agriculture
+					Empowering Business, Innovation & Sustainable Growth
 				</motion.p>
 
 				<motion.div
@@ -120,17 +118,17 @@ const HeroSection = () => {
 						{
 							icon: Globe,
 							label: "Countries Reached",
-							value: "50+",
+							value: "82+",
 						},
 						{
 							icon: TrendingUp,
 							label: "Years Experience",
-							value: "15+",
+							value: "18+",
 						},
 						{
-							icon: Globe,
-							label: "Active Projects",
-							value: "200+",
+							icon: Users,
+							label: "Skilled Professionals",
+							value: "5,795+",
 						},
 					].map((stat, index) => (
 						<motion.div

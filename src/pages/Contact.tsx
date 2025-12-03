@@ -19,13 +19,13 @@ const Contact = () => {
 		{
 			icon: Phone,
 			label: "Call Us",
-			value: "+1 (555) 123-4567",
-			href: "tel:+15551234567",
+			value: "+880 — (Provide your full number)",
+			href: "tel:+880",
 		},
 		{
 			icon: MapPin,
 			label: "Visit Us",
-			value: "Global Trade Center, Business District",
+			value: "(Provide your address for update)",
 			href: "#",
 		},
 		{
@@ -208,16 +208,17 @@ const Contact = () => {
 											Headquarters
 										</h4>
 										<p className="text-sm">
-											Global Trade Center, Business
-											District
+											Dhaka, Bangladesh
+											<br />
+											(Provide your address for update)
 										</p>
 									</div>
 									<div>
 										<h4 className="font-semibold mb-1">
-											Regional Offices
+											Global Presence
 										</h4>
 										<p className="text-sm">
-											50+ Countries Worldwide
+											Operating in 82+ Countries Worldwide
 										</p>
 									</div>
 								</div>

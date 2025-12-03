@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Award, Globe, Target, Users, Shield, TrendingUp } from "lucide-react";
 import { Spotlight } from "@/components/ui/spotlight";
 import { TextReveal } from "@/components/ui/text-reveal";
+import Organogram from "@/components/Organogram";
 
 const About = () => {
 	const values = [
@@ -14,22 +15,16 @@ const About = () => {
 				"Operating with transparency and honesty in every transaction",
 		},
 		{
-			icon: Target,
-			title: "Excellence",
+			icon: TrendingUp,
+			title: "Efficiency",
 			description:
-				"Delivering superior quality and exceeding expectations",
+				"Optimizing processes and delivering results with excellence",
 		},
 		{
 			icon: Users,
-			title: "Collaboration",
+			title: "Customer Satisfaction",
 			description:
-				"Building strong partnerships across borders and sectors",
-		},
-		{
-			icon: Globe,
-			title: "Global Vision",
-			description:
-				"Thinking globally while acting locally in every market",
+				"Exceeding expectations and building lasting relationships",
 		},
 		{
 			icon: Award,
@@ -37,9 +32,9 @@ const About = () => {
 			description: "Embracing new technologies and sustainable practices",
 		},
 		{
-			icon: TrendingUp,
-			title: "Growth",
-			description: "Creating value for stakeholders and communities",
+			icon: Globe,
+			title: "Sustainability",
+			description: "Creating long-term value for all stakeholders",
 		},
 	];
 
@@ -74,23 +69,26 @@ const About = () => {
 								Our <span className="text-primary">Story</span>
 							</h2>
 							<p className="text-lg text-foreground/80 leading-relaxed mb-4">
-								Founded over 15 years ago, SMCH Nexus Trading
-								Limited emerged from a vision to bridge global
-								markets and create sustainable business
-								opportunities across continents.
+								Established in 2007 in Dhaka by three visionary
+								entrepreneurs, SMCH Nexus Trading Limited
+								emerged from a vision to bridge global markets
+								and create sustainable business opportunities
+								across continents.
 							</p>
 							<p className="text-lg text-foreground/80 leading-relaxed mb-4">
 								What started as a focused trading operation has
-								evolved into a diversified enterprise spanning
-								international trade, construction, hospitality,
-								and agriculture. Our growth reflects our
-								commitment to excellence and our ability to
+								evolved into a technology-driven, diversified
+								enterprise spanning international trade,
+								construction, hospitality, agriculture, and
+								industrial equipment rental. Our growth reflects
+								our commitment to excellence and our ability to
 								adapt to evolving market dynamics.
 							</p>
 							<p className="text-lg text-foreground/80 leading-relaxed">
-								Today, we operate in over 50 countries, managing
-								200+ active projects, and serving more than
-								1,000 satisfied clients worldwide.
+								Today, with 18+ years of experience, we operate
+								globally with 5,795+ skilled professionals,
+								delivering international-standard services
+								across multiple sectors.
 							</p>
 						</TextReveal>
 
@@ -100,22 +98,22 @@ const About = () => {
 									Our Mission
 								</h3>
 								<p className="text-lg text-foreground/90 leading-relaxed mb-8">
-									To facilitate sustainable international
-									trade, deliver exceptional construction
-									projects, provide world-class hospitality
-									experiences, and promote agricultural
-									innovation while creating lasting value for
-									our partners, clients, and communities
-									worldwide.
+									To contribute to national economic
+									development, employment generation, and
+									technological advancement by delivering
+									high-quality products, world-class services,
+									and comprehensive technical solutions.
 								</p>
 								<h3 className="text-3xl font-serif font-bold mb-6">
 									Our Vision
 								</h3>
 								<p className="text-lg text-foreground/90 leading-relaxed">
-									To be the most trusted and innovative
-									multi-sector partner, recognized globally
-									for excellence, sustainability, and
-									transformative business solutions.
+									To become one of Bangladesh's leading
+									diversified business organizations and
+									establish a strong, trusted, and sustainable
+									presence in the global marketplace through
+									continuous innovation, operational
+									excellence, and long-term growth.
 								</p>
 							</div>
 						</TextReveal>
@@ -165,10 +163,10 @@ const About = () => {
 				<div className="container mx-auto px-4">
 					<div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
 						{[
-							{ value: "50+", label: "Countries Served" },
-							{ value: "200+", label: "Active Projects" },
-							{ value: "15+", label: "Years Experience" },
-							{ value: "1000+", label: "Satisfied Clients" },
+							{ value: "82+", label: "Countries Reached" },
+							{ value: "1,215+", label: "Equipment Units" },
+							{ value: "18+", label: "Years Experience" },
+							{ value: "5,795+", label: "Skilled Professionals" },
 						].map((stat, index) => (
 							<motion.div
 								key={stat.label}
@@ -190,6 +188,19 @@ const About = () => {
 							</motion.div>
 						))}
 					</div>
+				</div>
+			</section>
+
+			{/* Organizational Structure Section */}
+			<section className="py-20">
+				<div className="container mx-auto px-4">
+					<TextReveal>
+						<h2 className="text-4xl md:text-5xl font-serif font-bold mb-16 text-center">
+							Organizational{" "}
+							<span className="text-primary">Structure</span>
+						</h2>
+					</TextReveal>
+					<Organogram />
 				</div>
 			</section>
 

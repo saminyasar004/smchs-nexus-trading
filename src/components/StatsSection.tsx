@@ -13,10 +13,15 @@ const StatsSection = () => {
 	const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
 	const stats = [
-		{ value: 50, suffix: "+", label: "Countries Served", duration: 2 },
-		{ value: 200, suffix: "+", label: "Active Projects", duration: 2.5 },
-		{ value: 15, suffix: "+", label: "Years of Excellence", duration: 2 },
-		{ value: 1000, suffix: "+", label: "Satisfied Clients", duration: 3 },
+		{ value: 82, suffix: "+", label: "Countries Reached", duration: 2 },
+		{ value: 1215, suffix: "+", label: "Equipment Units", duration: 2.5 },
+		{ value: 18, suffix: "+", label: "Years of Excellence", duration: 2 },
+		{
+			value: 5795,
+			suffix: "+",
+			label: "Skilled Professionals",
+			duration: 3,
+		},
 	];
 
 	const [counters, setCounters] = useState(stats.map(() => 0));
